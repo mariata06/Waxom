@@ -1,0 +1,676 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*outline: 0 !important; должен убрать брауз.обводку кнопки и полей*/
+}
+html { 
+overflow-x:  hidden;      
+/*для центрирования страницы убираем горизонтальную полосу прокрутки*/
+	}
+/*общий контейнер всего содержимого сайта*/
+.container {
+	width: 1920px;
+	/*height: 3186px;*/
+	margin: 0 auto 0 auto;
+}
+
+/* Блок Header */
+header {
+	background-image: url("../img/slider.png");
+	width: 1920px;
+	height: 1024px;
+}
+.waxom {
+	width: 1170px
+	height: 56px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	padding-left: 377px;
+}
+.waxom #logo {
+  display: inline-block;
+}
+.waxom ul {
+  list-style: none;
+  padding-left: 219px;
+}
+.waxom li {
+	padding-left: 30px;
+	display: inline-block;
+}
+.waxom li a {
+	text-decoration: none;
+	color: white;
+}
+.waxom p {
+	color: white;
+	display: inline-block;
+}
+.waxom svg {
+	fill: white;
+}
+.cart {
+	padding-left: 63px;
+}
+.search {
+	padding-left: 28px;
+}
+
+.slogan {
+	text-align: center;
+	width: 590px;
+	height: 261px;
+	padding-top: 286px;
+	padding-left: 666px;
+}
+.slogan h1 {
+	color: white;
+} 
+.slogan h2 {
+	color: white;
+}
+.slogan p {
+	color: white;
+}
+input[type="button"] {
+	height: 53px;
+	width: 170px; 
+	padding-top: 52px; 
+	outline: none; 
+	text-align: center;
+}
+
+.slides {
+	width: 98px;
+	height: 14px;
+	color: white;
+	padding-top: 327px;
+	padding-left: 910px;
+}
+/* Блок Services */
+
+.Services {
+	background-color: #fff;
+	width: 1920px;
+	height: 373px;
+}
+.whatWeDo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1166px;
+	height: 213px;
+	padding-top: 81px;
+	padding-left: 378px;
+}
+.whatWeDo p {
+	color: black;
+	padding-top: 10px;
+	height: 70px;
+}
+.whatWeDo h3 {
+	color: black;
+	padding-top: 10px;
+}
+
+figure {
+	width: 266px;
+	height: 213px;
+	padding-top: 30px;
+	text-align: center;
+	display: inline-block;
+}
+
+figure svg {
+	fill: #555;
+}
+figcaption p::after {
+	display: block;
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 70px;
+	background-color: #c7b299;
+	margin-top: 30px;
+}
+
+/* Блок Portfolio */
+.Portfolio {
+	background-color: #fbfaf8;
+	width: 1920px;
+	height: 700px;
+}
+.Portfolio h2 {
+	text-align: center;
+	padding-top: 83px;
+	color: black;
+}
+.Portfolio p {
+	padding-top: 24px;
+	color: black;
+	text-align: center;
+	
+}
+.browser {
+	width: 1230px;
+	height: 482px;
+	background-image: url("../img/browser-center.png"), url("../img/browser-left.png"), url("../img/browser-right.png");
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: bottom center, bottom left, bottom right;
+	padding-bottom: 0px;
+	padding-top: 40px;
+	padding-left: 346px;
+}
+
+/* Блок Aside */
+Aside {
+	width: 1920px;
+	height: 150px;
+	background: linear-gradient(to right, #211b19, #4e3427);
+}
+.advertisement h2 {
+	width: 900px;
+	padding-top: 48px;
+	text-align: left;
+	margin: 0;
+	color: white;
+}
+.advertisement p {
+	color: white;
+	padding-top: 8px;
+	width: 900px;
+	text-align: left;
+	margin: 0;
+}
+.advertisement {
+	
+	width: 1170px;
+	height: 53px;
+	padding-left: 376px;
+	vertical-align: center;
+	
+}
+.txt {
+	width: 1170px;
+	height: 53px;
+	vertical-align: center;
+	margin: 0;
+}
+.purchase {
+	height: 53px;
+	width: 170px; 
+	outline: none; 
+	text-align: center;
+	float: right;
+}
+
+
+/* Блок Projects */
+.Projects {
+	background-color: #fff;
+	/*width: 1170px;
+	height: 1001px;*/
+	border-top: #fff solid 80px;
+	border-bottom: #fff solid 80px;
+	border-left: #fff solid 375px;
+	border-right: #fff solid 375px;
+}
+.Projects h2 {
+	text-align: center;
+	color: black;
+}
+.Projects p {
+	padding-top: 24px;
+	color: black;
+	text-align: center;
+	
+}
+.Projects ul {
+	padding-top: 40px;
+	text-align: center;
+	list-style: none;
+	padding-bottom: 40px;
+}
+.Projects ul li {
+	
+	display: inline-block;
+	padding-left: 40px;
+}
+.btn-all {
+	width: 70px;
+	background: #998675;
+	outline: none;
+}
+.btn-webDesign {
+	width: 120px;
+	outline: none;
+}
+.btn-mobileApp {
+	width: 120px;
+	outline: none;
+}
+.btn-illustration {
+	width: 120px;
+	outline: none;
+}
+.btn-photography {
+	width: 135px;
+	outline: none;
+}
+.name {
+	background: green;
+    padding: 30px;
+    position: relative;
+    color: #fff;
+	top: 0px;
+	padding-bottom: 30px;
+} 
+.name::before {
+	content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 12px; top: -20px; /* Положение треугольника */
+    border: 12px solid transparent; /* Прозрачные границы */
+    border-bottom: 9px solid green;
+}
+.name p {
+	text-align: left;
+}
+.categories li {
+	width: 88px;
+}
+.project {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+}
+.project article {
+	display: block;
+	width: 370px;
+}
+.LoadMore {
+	height: 53px;
+	width: 170px; 
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+/* Блок Video */
+.Video {
+	background-image: url("../img/video.png");
+	width: 1920px;
+	height: 705px;
+}
+.VideoName {
+	width: 552px;
+	height: 288px;
+	margin: auto;
+}
+
+.VideoName svg {
+	align-items: center;
+	fill: white;
+	padding-left: 242px;
+	padding-top: 16px;
+}	
+.VideoName h2 {
+	padding-top: 59px;
+	text-align: center;
+	color: white;
+}
+.VideoName p {
+	padding-top: 29px;
+	text-align: center;
+	color: white;
+}
+.VideoName time {
+	padding-top: 40px;
+	text-align: center;
+	color: white;
+}
+/* Блок Features */
+.features {
+	width: 1920px;
+	height: 695px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.txt-features {
+	display: block;
+	width: 657px;
+	height: 321px;
+	padding-top: 195px;
+	padding-left: 29px;
+}
+.iphone {
+	display: block;
+	width: 846px;
+	height: 616px;
+	padding-top: 79px;
+	background: fbfaf8;
+	background-image: url("../img/iphone.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.txt-features h2 {
+	padding-top: 0px;
+	padding-left: 0px;
+	text-align: left;
+	color: black;
+}
+
+.features p {
+	padding-top: 40px;
+	padding-left: 0px;
+	text-align: left;
+	width: 655px;
+	color: black;
+	line-height: 1.5;
+}
+.txt-features ul {
+	padding-top: 45px;
+	padding-left: 100px;
+	list-style: none;
+	width: 596px;
+	line-height: 1.5;
+}
+
+/*.features ul li:before {
+    content: url("data:image/svg+xml; utf8, 
+					<svg width="21px" height="21px">
+						<path d="M10.500,0.000 C4.702,0.000 0.001,4.701 0.001,10.499 C0.001,16.298 4.702,20.998 10.500,20.998 C16.299,20.998 20.998,16.298 20.998,10.499 C20.998,4.701 16.299,0.000 10.500,0.000 ZM13.789,10.996 L9.250,15.535 C8.977,15.809 8.533,15.809 8.260,15.535 C7.987,15.261 7.987,14.819 8.260,14.545 L12.307,10.499 L8.260,6.452 C7.987,6.179 7.987,5.736 8.260,5.462 C8.533,5.190 8.977,5.190 9.250,5.462 L13.789,10.002 C13.927,10.140 13.995,10.320 13.994,10.499 C13.994,10.679 13.927,10.859 13.789,10.996 Z"/>
+					</svg>");
+	margin: 0px;
+	margin-right: 10px;
+}*/
+
+
+/*Блок Statistics*/
+.Statistics {
+	background: linear-gradient(to right, #211b19, #4e3427);
+	width: 1920px;
+	height: 300px;
+}
+.Statistics p {
+	color: black;
+}
+.counters {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 920px;
+	height: 171px;
+	padding-top: 69px;
+	padding-left: 496px;
+}
+
+figure {
+	width: 184px;
+	/*height: 213px;*/
+	text-align: center;
+	display: inline-block;
+}
+
+.counters figure svg {
+	fill: #c7b299;
+}
+.counters p::after {
+display: block;
+position: absolute;
+content: "";
+height: 2px;
+width: 30px;
+background-color: #fff;
+text-align: center;
+margin-top: 30px;
+}
+
+
+/*Блок Recent Posts*/
+.Posts {
+	background-color: #fff;
+	width: 1920px;
+	height: 754px;
+}
+.PostDescription {
+	height: 94px;
+	width: 757px;
+	padding-left: 583px;
+	padding-top: 81px;
+}
+.PostDescription h2 {
+	text-align: center;
+	color: black;
+}
+.PostDescription p {
+	padding-top: 30px;
+	text-align: center;
+}
+.NamePost {
+	height: 395px;
+	width: 1170px;
+	padding-left: 376px;
+	padding-top: 40px;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+}
+.NamePost article {
+	display: block;
+	width: 370px;
+	height: 396px;
+	background-color: green;
+	
+}
+.img-post {
+	z-index: 1;
+}
+.date {
+	width: 50px;
+	height: 60px;
+	border-radius: 2px;
+	background-color: #363636;
+	z-index: 2;
+}
+/*.NamePost article img:before {
+	content: "";
+	width: 50px;
+	height: 60px;
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 20px;
+	background-color: #363636;
+	color: white;
+	border-radius: 2px;
+	z-index: 1;
+	/*z-index: 2;
+} */
+/*content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.8s;
+  opacity: 0;*/
+
+
+
+
+
+
+
+/*.img-post {
+	position: relative;
+	z-index: 1;
+}*/
+.NamePost h3 {
+	color: black;
+	padding-top: 30px;
+	padding-left: 29px;
+	text-align: left;
+}
+.NamePost p {
+	color: black;
+	padding-top: 10px;
+	padding-left: 29px;
+	text-align: left;
+}
+.NamePost span {
+	color: black;
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: left;
+}
+.PostArrows {
+	width: 52px;
+	height: 22px;
+	padding-top: 41px;
+	padding-left: 935px;
+}
+
+
+
+/* Блок FOOTER */
+footer {
+	
+}
+
+.Partners {
+	background-image: url("../img/bg_logos.png");
+	background-repeat: no-repeat;
+	height: 489px;
+	width: 1920px;
+}
+.logoName {
+	width: 1110px;
+	height: 210px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 140px;
+	padding-left: 406px;
+}
+.logoName svg {
+	display: block;
+	width: 210px;
+	height: 210px;
+	margin: auto;
+	vertical-align: middle;
+	
+}
+.Info {
+	background: #191919;
+	/*width: 1920px;
+	height: 508px;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-left: #191919 solid 377px;
+	border-top: #191919 solid 80px;
+	border-right: #191919 solid 377px;
+	border-bottom: #191919 solid 80px;
+}
+.About, .RecentPost, .Twitter, .Dribbble {
+	width: 270px;
+	height: 347px;
+	display: block;
+}
+ .Info h3, h2 {
+	 color: white;
+ }
+ .Info p {
+	 line-height: 1.5;
+ }
+ .About #logo {
+  display: inline-block;
+}
+.About h2 {
+	padding-bottom: 14px;
+	display: inline-block;
+}
+
+.About svg {
+	fill: white;
+}
+.Info p, time, span {
+	color: #555555;
+}
+.RecentPost h3 {
+	padding-top: 28px;
+	padding-bottom: 25px;
+}
+.RecentPost p {
+	border-bottom: #252525 solid 1px ;
+	padding-bottom: 21px;
+}
+/* почему не работает? для нижнего border у p и верхнего у time  
+.RecentPost p:nth-child {
+	border-bottom: #252525 solid 1px ;
+	padding-bottom: 21px;
+.RecentPost time:nth-child {
+	border-bottom: #252525 solid 1px ;
+	padding-top: 21px;
+}	
+*/
+.Twitter h3 {
+	padding-top: 28px;
+	padding-bottom: 25px;
+}
+.Twitter time {
+	border-bottom: #252525 solid 1px ;
+	padding-bottom: 21px;
+}
+.img-widget {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 270px;
+	height: 206px;
+} 
+.Dribbble img {
+	display: block;
+	padding-bottom: 10px;
+}
+.Dribbble h3 {
+	padding-top: 28px;
+	padding-bottom: 25px;
+}
+
+
+
+/* footer: Copyright */
+.Copyright {
+	height: 14px;
+	background: #111111;
+	/*width: 1920px;
+	height: 508px;*/
+	display: flex;
+	flex-wrap: wrap;
+	border-left: #111111 solid 377px;
+	border-top: #111111 solid 45px;
+	border-right: #111111 solid 377px;
+	border-bottom: #111111 solid 45px;
+}
+.Copyright p {
+	color: white;
+}
+.stick {
+	padding-left: 26px;
+}
+.stick::before {
+	display: inline-block;
+	position: absolute;
+	content: "";
+	height: 15px;
+	width: 2px;
+	background-color: red;
+	margin-left: -13px;
+}
